@@ -22,6 +22,7 @@
 		4087DDA21383DCF000728445 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4087DDA01383DCF000728445 /* InfoPlist.strings */; };
 		4087DDA51383DCF000728445 /* word_selector_prototypeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4087DDA41383DCF000728445 /* word_selector_prototypeTests.h */; };
 		4087DDA71383DCF000728445 /* word_selector_prototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4087DDA61383DCF000728445 /* word_selector_prototypeTests.m */; };
+		4087DDB91383F3F300728445 /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4087DDB81383F3F300728445 /* example.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,23 @@
 		4087DD771383DCEF00728445 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4087DD791383DCEF00728445 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4087DD7B1383DCEF00728445 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4087DD7F1383DCEF00728445 /* word-selector-prototype-Info.plist */ = {isa = PBXFileReference; path = "word-selector-prototype-Info.plist"; sourceTree = "<group>"; };
+		4087DD7F1383DCEF00728445 /* word-selector-prototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "word-selector-prototype-Info.plist"; sourceTree = "<group>"; };
 		4087DD811383DCEF00728445 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4087DD831383DCEF00728445 /* word-selector-prototype-Prefix.pch */ = {isa = PBXFileReference; path = "word-selector-prototype-Prefix.pch"; sourceTree = "<group>"; };
+		4087DD831383DCEF00728445 /* word-selector-prototype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "word-selector-prototype-Prefix.pch"; sourceTree = "<group>"; };
 		4087DD841383DCEF00728445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4087DD861383DCEF00728445 /* word_selector_prototypeAppDelegate.h */ = {isa = PBXFileReference; path = word_selector_prototypeAppDelegate.h; sourceTree = "<group>"; };
+		4087DD861383DCEF00728445 /* word_selector_prototypeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = word_selector_prototypeAppDelegate.h; sourceTree = "<group>"; };
 		4087DD871383DCEF00728445 /* word_selector_prototypeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = word_selector_prototypeAppDelegate.m; sourceTree = "<group>"; };
 		4087DD8A1383DCF000728445 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4087DD8C1383DCF000728445 /* word_selector_prototypeViewController.h */ = {isa = PBXFileReference; path = word_selector_prototypeViewController.h; sourceTree = "<group>"; };
+		4087DD8C1383DCF000728445 /* word_selector_prototypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = word_selector_prototypeViewController.h; sourceTree = "<group>"; };
 		4087DD8D1383DCF000728445 /* word_selector_prototypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = word_selector_prototypeViewController.m; sourceTree = "<group>"; };
 		4087DD901383DCF000728445 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/word_selector_prototypeViewController.xib; sourceTree = "<group>"; };
 		4087DD971383DCF000728445 /* word-selector-prototypeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "word-selector-prototypeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4087DD9F1383DCF000728445 /* word-selector-prototypeTests-Info.plist */ = {isa = PBXFileReference; path = "word-selector-prototypeTests-Info.plist"; sourceTree = "<group>"; };
+		4087DD9F1383DCF000728445 /* word-selector-prototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "word-selector-prototypeTests-Info.plist"; sourceTree = "<group>"; };
 		4087DDA11383DCF000728445 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4087DDA31383DCF000728445 /* word-selector-prototypeTests-Prefix.pch */ = {isa = PBXFileReference; path = "word-selector-prototypeTests-Prefix.pch"; sourceTree = "<group>"; };
+		4087DDA31383DCF000728445 /* word-selector-prototypeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "word-selector-prototypeTests-Prefix.pch"; sourceTree = "<group>"; };
 		4087DDA41383DCF000728445 /* word_selector_prototypeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = word_selector_prototypeTests.h; sourceTree = "<group>"; };
 		4087DDA61383DCF000728445 /* word_selector_prototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = word_selector_prototypeTests.m; sourceTree = "<group>"; };
+		4087DDB81383F3F300728445 /* example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				4087DD8D1383DCF000728445 /* word_selector_prototypeViewController.m */,
 				4087DD8F1383DCF000728445 /* word_selector_prototypeViewController.xib */,
 				4087DD7E1383DCEF00728445 /* Supporting Files */,
+				4087DDB81383F3F300728445 /* example.txt */,
 			);
 			path = "word-selector-prototype";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				4087DD821383DCEF00728445 /* InfoPlist.strings in Resources */,
 				4087DD8B1383DCF000728445 /* MainWindow.xib in Resources */,
 				4087DD911383DCF000728445 /* word_selector_prototypeViewController.xib in Resources */,
+				4087DDB91383F3F300728445 /* example.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +339,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -344,13 +348,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -446,6 +451,7 @@
 				4087DDAC1383DCF000728445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4087DDAD1383DCF000728445 /* Build configuration list for PBXNativeTarget "word-selector-prototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +460,7 @@
 				4087DDAF1383DCF000728445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
