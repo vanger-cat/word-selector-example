@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'word-selector-prototypeTests' target in the 'word-selector-prototypeTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
